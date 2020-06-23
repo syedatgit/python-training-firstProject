@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+
+{% extends "third_app/base.html"%}
+
+  {% block body_block %}
+
+    <h4>This is Index Page</h4>
+    <h1>{{ key1|cut:'Hello' }}</h1>
+    <h1>{{ key2|add:"1000" }}</h1>
+
+    {% endblock %}
